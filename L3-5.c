@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
 
@@ -6,16 +7,15 @@ int main(){
 
     printf("Digite um numero: ");
     scanf("%d", &n);
-
+    
     if (n > 1)
     {
         nq = pow(n, 2);
         nr = sqrt(n);
 
         printf("Numero ao quadrado: %d\n", nq);
-        printf("Rai quadrada do numero: %d\n", nr);
+        printf("Raiz quadrada do numero: %d\n", nr);
     }
     
     return 0;
-    
 }
